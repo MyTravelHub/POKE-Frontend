@@ -43,7 +43,7 @@ const WeatherDisplay = () => {
       if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(
           async (position) => {
-            const apiKey = 'b93f20cfc3fc5cc03be555409256ed12';
+            const apiKey = REACT_APP_OPENWEATHER_API_KEY;
             const latitude = position.coords.latitude;
             const longitude = position.coords.longitude;
 

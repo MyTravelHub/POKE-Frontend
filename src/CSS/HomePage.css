@@ -1,0 +1,27 @@
+/* HomePage.css */
+
+/* Style the home page container */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #e4e9e9, #ffffff);
+  min-height: 100vh;
+  width: 100%;
+}
+.slide-in {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-in 0.5s ease both;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

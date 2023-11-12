@@ -1,0 +1,8 @@
+/* Add this CSS to your global styles or a CSS reset file */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

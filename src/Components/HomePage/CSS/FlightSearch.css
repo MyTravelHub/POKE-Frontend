@@ -1,0 +1,21 @@
+/* FlightSearch.css */
+
+.flight-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/Images/FLightBG.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  scroll-behavior: smooth;
+  color: #fff; /* Set text color to white for better visibility */
+  width: 100%;
+}
+
+.search-bar1,
+.result {
+  width: 30%;
+  margin: auto;
+  color: #fff; /* Set text color to white for better visibility */
+}

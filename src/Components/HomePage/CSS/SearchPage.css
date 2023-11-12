@@ -1,0 +1,47 @@
+/* SearchPage.css */
+
+.search-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/Images/Placeholder.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  scroll-behavior: smooth; /* Add smooth scrolling */
+}
+
+.custom-textfield-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-textfield {
+  width: 300%;
+  margin: 0 -100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.search-button:hover {
+  background-color: #2980b9;
+}

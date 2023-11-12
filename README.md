@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a965ebcd-959a-45af-a6ed-4e416cdd809c/deploy-status)](https://app.netlify.com/sites/fanciful-toffee-168599/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -45,6 +45,15 @@ nav {
   color: #ffd700; /* Change the color to your preferred accent color */
 }
 
+.transparent-navbar {
+  background-color: transparent;
+  position: absolute; /* or fixed, adjust as needed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Ensure the navbar appears above other content */
+}
+
 /* Media Query for Responsive Design */
 @media (max-width: 768px) {
   .nav-links {

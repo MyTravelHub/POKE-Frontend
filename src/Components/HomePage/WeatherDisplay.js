@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
 import axios from "axios";
 import "./CSS/WeatherDisplay.css";
 import { WiDaySunny, WiCloudy, WiRain, WiSnow } from "react-icons/wi";

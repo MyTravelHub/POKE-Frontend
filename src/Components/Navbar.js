@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Element } from "react-scroll"; // Import Element and Link from react-scroll
-import "./Navbar.css";
+import "./CSS/Navbar.css";
 
 const Navbar = () => {
   return (
@@ -12,43 +11,26 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <Link
-            activeClass="active"
-            to="home"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Home
-          </Link>
+          {/* Replace the Link with an anchor tag */}
+          <a href="/#home">Home</a>
         </li>
         <li>
-          <Link
-            activeClass="active"
-            to="weather"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Weather
-          </Link>
+          <a href="/#weather">Weather</a>
         </li>
         <li>
-          <Link
-            activeClass="active"
-            to="flight-search"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Flight Search
-          </Link>
+          <a href="/#flight-search">Flight Search</a>
         </li>
         <li>
-          <Link to="/AirportDelays">Delays</Link>
+          {/* Open a new page for Airport Delays */}
+          <a href="/AirportDelays" target="_blank" rel="noopener noreferrer">
+            Delays
+          </a>
         </li>
         <li>
-          <Link to="/Airports">Airports</Link>
+          {/* Open a new page for Airports */}
+          <a href="/Airports" target="_blank" rel="noopener noreferrer">
+            Airports
+          </a>
         </li>
       </ul>
     </nav>
